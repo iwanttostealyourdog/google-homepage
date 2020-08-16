@@ -63,7 +63,42 @@
             user-select: none;
                     }
 
+
+#header {
+            color: rgba(0, 0, 0, 0.719);
+            padding-left: 27px;
+            font-family: arial, sans-serif;
+            text-align: left;
+            font-size: 12px;
+            position: fixed;
+            line-height: 20px;
+            width: 100%;
+            top: 15px;
+            visibility: visible;
+        }
  
+    .top-left {
+            float: left;
+            margin-left: 0px;
+            white-space: nowrap;
+            }
+
+    .top-right {
+            float: right;
+            margin-right: 27px;
+            white-space: nowrap;
+            }
+
+    .store {
+    padding-right: 20px;
+    padding-left: 20px;
+    }
+
+    .gmail {
+    padding-right: 20px;
+    padding-left: 20px;
+    }
+
         #footer-top {
             color: rgba(0, 0, 0, 0.54);
             padding-left: 27px;
@@ -135,6 +170,18 @@
     <title> Project_1 - Google home page </title>
 </head>
 <body>
+    <div id="header">
+        <span class="top-left">
+            <a href="#" class="about">About</a>
+            <a href="#" class="store">Store</a>
+         </span>
+         <span class="top-right">
+            <a href="#" class="gmail">Gmail</a>
+            <a href="#" class="images">Images</a>
+         </span>
+    </div>
+
+
  <main>
 
 <div class="logo">
