@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        h1 {
+            font-size: 10px;
+        }
+        img {
+            width: 280px;
+            display: block;
+            margin-top: 150px;
+            margin-right: auto;
+            margin-left: auto;
+                }
+        #input {
+            background-color: transparent;
+            display: flex;
+            flex: 1;
+            margin-top: 10px;
+            margin-right: auto;
+            margin-left: auto; 
+            font-size: 20px;
+            border: 1px solid #dfe1e5;
+            border-radius: 24px;
+            height: 44px;
+            width: 482px;
+            box-shadow: rgb(165, 164, 164);
+            border-width: 1px;
+            font-family: arial, sans-serif;
+                        }
+        
+        #input:hover {
+            box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+            border-color: rgba(223, 225, 229, 0);
+        }
+        
+        center {
+            display: block;
+            text-align: -webkit-center;
+        }
+
+        .button {
+            font-family: arial, sans-serif;
+            font-size: small;
+            color: #5F6368;
+            background-image: -webkit-radial-gradient(top, #f5f5f5, #f1f1f1);
+            background-color: #f2f2f2;
+            border: 1px solid #f2f2f2;
+            border-radius: 4px;
+            font-size: 14px;
+            margin: 11px 4px;
+            padding: 0 16px;
+            line-height: 27px;
+            height: 36px;
+            min-width: 54px;
+            text-align: center;
+            cursor: pointer;
+            user-select: none;
+                    }
+
+ 
+        #footer-top {
+            color: rgba(0, 0, 0, 0.54);
+            padding-left: 27px;
+            background-color: #f2f2f2;
+            font-family: arial, sans-serif;
+            text-align: left;
+            font-size: 14px;
+            position: fixed;
+            line-height: 20px;
+            width: 100%;
+            bottom: 40px;
+            visibility: visible;
+            border-top: 1px solid #e4e4e4;
+        }
+    
+
+        #footer-bottom {
+            color: rgba(0, 0, 0, 0.54);
+            margin-left: 27px;
+            background-color: #f2f2f2;
+            font-family: arial, sans-serif;
+            font-size: 14px;
+            position: fixed;
+            line-height: 40px;
+            width: 100%;
+            bottom: 0px;
+            visibility: visible;
+            border-top: 1px solid #e4e4e4;
+            display: inline-block;
+            color: #5f6368;
+            
+            }
+
+        .bottom-left {
+            float: left;
+            margin-left: 0px;
+            white-space: nowrap;
+            }
+
+            a {
+            text-decoration: none;
+            color: #5f6368;
+            }
+
+            a:hover {
+                text-decoration: underline;
+                color: #5f6368;
+            }
+
+        .bottom-right {
+            float: right;
+            margin-right: 40px;
+            white-space: nowrap;
+
+        }
+
+        .business {
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+
+        .terms {
+            padding-right: 20px;
+            padding-left: 20px;
+}
+
+    </style>
+
+    <title> This is the title </title>
+</head>
+<body>
+ <main>
+
+<div class="logo">
+    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="googlelogo">
+</div> 
+    <input type="text" id="input" title="Search">
+    <p></p>
+    <center>
+    <button type="submit" class="button">Google Search</button>
+    <button type="submit" class="button">I'm Feeling Lucky</button>
+    </center>
+
+</main>   
+
+</body>
+<footer>
+   <div id="footer-top">
+    <p>United Kingdom</p>
+</div>
+
+<div id="footer-bottom">
+    <span class="bottom-left">
+        <a href="#" class="adv">Advertising</a>
+        <a href="#" class="business">Business</a>
+        <a href="#" class="how">How Search Works</a>
+    </span>
+       <span class="bottom-right">
+        <a href="#" class="privacy">Privacy</a>
+        <a href="#" class="terms">Terms</a>
+        <a href="#" class="settings">Settings</a>
+    </span>
+
+</div>
+</footer>
+
+
+</html>
