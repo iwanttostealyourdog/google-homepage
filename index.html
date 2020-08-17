@@ -24,21 +24,43 @@
             margin-top: 10px;
             margin-right: auto;
             margin-left: auto; 
-            font-size: 20px;
+            font-size: 16px;
             border: 1px solid #dfe1e5;
             border-radius: 24px;
             height: 44px;
             width: 482px;
-            box-shadow: rgb(165, 164, 164);
             border-width: 1px;
             font-family: arial, sans-serif;
+            position: relative;
+            padding-left: 30px;
+          
                         }
         
         #input:hover {
             box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
             border-color: rgba(223, 225, 229, 0);
         }
+
+        #input:focus {
+            outline: none;
+        }
         
+        #searchicon {
+            height: 20px;
+            
+            color:#9aa0a6;
+            position: relative;
+            bottom: 30px;
+            margin-right: 450px;
+            font-size: 24px;
+            display: inline-block;
+            fill: currentColor;
+            
+            line-height: 24px;
+            
+        }  
+
+
         center {
             display: block;
             text-align: -webkit-center;
@@ -167,7 +189,7 @@
 
     </style>
 
-    <title> Project_1 - Google home page </title>
+    <title> Google home page </title>
 </head>
 <body>
     <div id="header">
@@ -187,7 +209,17 @@
 <div class="logo">
     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="googlelogo">
 </div> 
+
+<center>
+<div>
     <input type="text" id="input" title="Search">
+    <svg id="searchicon" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+    </svg>
+
+</div>
+</center>    
+
     <p></p>
     <center>
     <button type="submit" class="button">Google Search</button>
